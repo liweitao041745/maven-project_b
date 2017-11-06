@@ -72,7 +72,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
                allowedMethods="GET"
                doc:name="HTTP" />
           <set-payload
-               value="#[&quot;HELLO ,WORLD.&quot;]"
+               value="#[&quot;hello ,maven2.&quot;]"
                doc:name="Set Payload" />
      </flow>
 </mule>
